@@ -234,6 +234,7 @@ async function carregarDados() {
   atualizarGraficos();
 }
 
+<<<<<<< HEAD
 window.onload = function() {
   carregarDados();
 
@@ -284,3 +285,6 @@ window.onload = function() {
     });
   };
 };
+=======
+window.onload = carregarDados;
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea

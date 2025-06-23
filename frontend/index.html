@@ -57,6 +57,7 @@
       width: 100% !important;
       height: 300px !important;
     }
+<<<<<<< HEAD
     .container-modelo-predicao {
       display: flex;
       gap: 20px;
@@ -71,22 +72,35 @@
     #containerGraficoModelo {
       flex: 1 1 600px;
       max-width: 600px;
+=======
+
+    #containerGraficoModelo {
+      margin: 40px auto;
+      width: 90%;
+      max-width: 800px;
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
       height: 400px;
       background: white;
       border-radius: 8px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
       padding: 20px;
+<<<<<<< HEAD
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
     }
+=======
+    }
+
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
     #containerGraficoModelo h3 {
       text-align: center;
       margin: 0 0 20px 0;
       color: #40516c;
       font-size: 1.3em;
     }
+<<<<<<< HEAD
     .box-predicao {
       flex: 0 1 320px;
       max-width: 320px;
@@ -134,16 +148,27 @@
       text-align: center;
       min-height: 24px;
     }
+=======
+
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
     h1 {
       text-align: center;
       color: #40516c;
       margin-bottom: 30px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
     h2 {
       color: #40516c;
       margin-bottom: 15px;
       font-size: 1.2em;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
     select, input[type="date"] {
       padding: 8px 12px;
       border: 1px solid #ddd;
@@ -181,6 +206,7 @@
     </div>
   </div>
 
+<<<<<<< HEAD
   <div class="container-modelo-predicao">
     <div id="containerGraficoModelo">
       <h3>Fatores Determinantes nos Tipos de Caso</h3>
@@ -199,6 +225,11 @@
       </form>
       <div id="resultado"></div>
     </div>
+=======
+  <div id="containerGraficoModelo">
+    <h3>Fatores Determinantes nos Tipos de Caso</h3>
+    <canvas id="graficoModelo"></canvas>
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
   </div>
 
   <script>
@@ -393,12 +424,21 @@
                   text: 'Valor do Coeficiente'
                 }
               },
+<<<<<<< HEAD
               y: {
                 grid: { display: false },
                 ticks: {
                   autoSkip: false
                 }
               }
+=======
+    	      y: {
+      		grid: { display: false }, // <- ESSA LINHA REMOVE O GRID DO Y
+      		ticks: {
+      		  autoSkip: false
+      		}
+    	      }
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
             },
             plugins: {
               legend: { display: false },
@@ -432,6 +472,7 @@
     document.getElementById("variavelRosca").addEventListener("change", atualizarGraficos);
 
     carregarDados();
+<<<<<<< HEAD
 
     // Monta os radio buttons de etnia e localização
     fetch('http://localhost:5000/api/opcoes')
@@ -481,6 +522,8 @@
             : `Erro: ${JSON.stringify(data)}`;
       });
     };
+=======
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
   </script>
 </body>
 </html>

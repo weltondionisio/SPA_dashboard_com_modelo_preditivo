@@ -15,8 +15,11 @@ A aplicação permite inserir e consultar dados via API, além de treinar e visu
   - Gráfico de barras com a distribuição de idades das vítimas.
   - Gráfico horizontal com a **importância das variáveis no modelo XGBoost**.
 - Permite aplicar filtros por intervalo de datas diretamente na interface.
+<<<<<<< HEAD
 - **Inclui uma caixa de previsão de tipo de caso:**  
   Preencha etnia, localização e idade para prever automaticamente o tipo de caso mais provável, usando o modelo treinado.
+=======
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
 - Interface totalmente SPA, sem recarregamento de página.
 
 ---
@@ -58,6 +61,7 @@ python app.py
 
 ---
 
+<<<<<<< HEAD
 ## 📦 Caixa de Previsão de Tipo de Caso
 
 Na lateral da interface, há uma caixa onde você pode selecionar a **etnia**, **localização** e informar a **idade** da vítima.  
@@ -65,6 +69,8 @@ Ao clicar em "Prever", o sistema utiliza o modelo XGBoost treinado para indicar 
 
 ---
 
+=======
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
 ## 📁 Exemplo de dado no MongoDB
 
 ```json
@@ -86,7 +92,10 @@ Ao clicar em "Prever", o sistema utiliza o modelo XGBoost treinado para indicar 
 - `GET /api/casos` → retorna todos os registros de casos.
 - `POST /api/casos` → insere um novo caso no banco.
 - `GET /api/modelo/coeficientes` → retorna a importância das variáveis no modelo XGBoost.
+<<<<<<< HEAD
 - `POST /api/predizer` → retorna a previsão do tipo de caso para os dados informados (usado pela caixa de previsão).
+=======
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
 
 ---
 
@@ -108,5 +117,10 @@ As importâncias são normalizadas de 0 a 1, e o modelo é salvo em disco com `j
 
 ## 🧑‍💻 Autor
 
+<<<<<<< HEAD
 Desenvolvido por [Welton Dionisio](https://github.com/weltondionisio).  
 Este projeto é livre para fins educacionais e experimentais.
+=======
+Desenvolvido por Welton Dionisio.  
+Este projeto é livre para fins educacionais e experimentais.
+>>>>>>> 05500c667be8304b614e3b749fed8cff693c75ea
