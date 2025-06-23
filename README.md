@@ -106,6 +106,10 @@ As importâncias são normalizadas de 0 a 1, e o modelo é salvo em disco com `j
 
 ---
 
+## ▶️ Demonstração em vídeo
+
+Veja em: https://youtu.be/FC-pZBshDtM
+
 ## 🧑‍💻 Autor
 
 Desenvolvido por Welton Dionisio.  
