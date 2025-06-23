@@ -36,7 +36,7 @@ A aplicação permite inserir e consultar dados via API, além de treinar e visu
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/seu-usuario/seu-repo.git](https://github.com/weltondionisio/SPA_dashboard_com_modelo_preditivo
 cd seu-repo
 ```
 
