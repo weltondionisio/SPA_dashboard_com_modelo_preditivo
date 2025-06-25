@@ -113,4 +113,4 @@ Veja em: https://youtu.be/FC-pZBshDtM
 ## 🧑‍💻 Autor
 
 Desenvolvido por [Welton Dionisio](https://github.com/weltondionisio).  
-Este projeto é livre para fins educacionais e experimentais.
+Este projeto é livre para fins estritamente educacionais, mas não experimentais.
